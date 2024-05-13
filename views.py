@@ -9,7 +9,7 @@ def consultar(request, num):
     mensaje = "El No. existe en la lista"
   else:
     mensaje = "El No. no existe en la lista"
-    
+   
   return HttpResponse(mensaje)
   
  def fecha_hora(request):
